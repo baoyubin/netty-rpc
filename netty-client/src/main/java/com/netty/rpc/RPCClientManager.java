@@ -32,6 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.net.ConnectException;
 import java.net.InetSocketAddress;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -130,12 +131,22 @@ public class RPCClientManager {
                 InetSocketAddress serviceAddress = null;
                 try {
                   serviceAddress  = nacosServerDiscovery.getService(serviceClass.getName());
-                }catch (NacosException e){
+                }catch (Exception e){
                     e.printStackTrace();
                     return null;
                 }
 
                 Channel ch = get(serviceAddress);
+                if (ch == null) {
+                    //连接失败，抛异常
+                    //在这里实现重试策略
+                    //TODO 缓存一次拉取的服务，
+                    //     尝试重新连接k次，连接失败尝试更换其他地址通信
+                    //     都失败，就在30秒后重新拉取服务再次尝试，失败则抛出异常
+                    log.error("服务失败");
+                    return null;
+                    //throw new ConnectException("连接失败，");
+                }
                 ch.writeAndFlush(message).addListener(new GenericFutureListener<io.netty.util.concurrent.Future<? super Void>>() {
                     @Override
                     public void operationComplete(io.netty.util.concurrent.Future<? super Void> future) throws Exception {
@@ -176,9 +187,10 @@ public class RPCClientManager {
                     log.debug("断开连接");
                 }
             });
-        } catch (InterruptedException e) {
-            channel.close();
-            log.debug("连接客户端出错" + e);
+        } catch (Exception e) {
+            if (e instanceof InterruptedException){
+                channel.close();
+            }
             return null;
         }
         servicesChannelMap.put(key, channel);

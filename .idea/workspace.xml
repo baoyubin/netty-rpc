@@ -5,109 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43299b2f-1d59-451f-9c17-0bf3e334934a" name="Changes" comment="rpc_version_1">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/RPCClientManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/RpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/RpcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/handler/RpcResponseMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosServerDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RpcClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RpcService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/handler/RpcResponseMessageHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/registery/NacosServerDiscovery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/registery/NacosUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/annotation/RpcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/message/PingMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/message/RpcRequestMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/message/RpcResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/protocol/Beat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/protocol/MessageCodecSharable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/protocol/ProcotolFrameDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/protocol/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/java/com/netty/rpc/protocol/SerializerAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/annotation/RpcService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/config/Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/message/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/message/PingMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/message/RpcRequestMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/message/RpcResponseMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/Beat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/MessageCodecSharable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/ProcotolFrameDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/Serializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/SerializerAlgorithm$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/SerializerAlgorithm$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/SerializerAlgorithm$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/SerializerAlgorithm$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/SerializerAlgorithm$ClassCodec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-common/target/classes/com/netty/rpc/protocol/SerializerAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/Boot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/center/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/handler/RpcRequestMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/registery/NacosServerRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/registery/NacosUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/service/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/service/RpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/serviceimpl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/serviceimpl/HelloServiceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/serviceimpl/UserServiceMemoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/Boot$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/Boot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/center/ServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/handler/RpcRequestMessageHandler$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/handler/RpcRequestMessageHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/registery/NacosServerRegistry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/registery/NacosUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/service/NettyServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/service/NettyServer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/service/NettyServer$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/service/NettyServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/service/RpcServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/serviceimpl/HelloServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/serviceimpl/HelloServiceImpl2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-service/target/classes/com/netty/rpc/serviceimpl/UserServiceMemoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/src/main/java/com/netty/rpc/loadBalancer/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/src/main/java/com/netty/rpc/loadBalancer/RandomRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/src/main/java/com/netty/rpc/loadBalancer/RoundRobinRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/src/main/java/com/netty/rpc/registery/ServerDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/src/main/java/com/netty/rpc/registery/ServerRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/target/classes/com/netty/rpc/loadBalancer/LoadBalancer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/target/classes/com/netty/rpc/loadBalancer/RandomRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/target/classes/com/netty/rpc/loadBalancer/RoundRobinRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/target/classes/com/netty/rpc/registery/ServerDiscovery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-center/target/classes/com/netty/rpc/registery/ServerRegistry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/netty/rpc/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/netty/rpc/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/netty/rpc/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/target/classes/com/netty/rpc/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/target/classes/com/netty/rpc/HelloService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/target/classes/com/netty/rpc/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/RPCClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/RPCClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosServerDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosServerDiscovery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/RPCClientManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/registery/NacosServerDiscovery.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/target/classes/com/netty/rpc/registery/NacosServerDiscovery.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +27,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;baoyubin&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;author&quot;: &quot;baoyubin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e792e86e-227c-49a4-b744-641091e60b00" />
+        <option name="url" value="https://github.com/baoyubin/netty-rpc.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -146,29 +69,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "D:/ideaworkplace/netty-rpc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15039062",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "107817d6dd8c17e4468d231ce65169bd",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaworkplace/netty-rpc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;107817d6dd8c17e4468d231ce65169bd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaworkplace\netty-rpc\netty-service\src\main\java\com\netty\rpc" />
@@ -185,8 +109,21 @@
       <recent name="com.netty.rpc.service.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RpcClient">
+  <component name="RunManager" selected="Application.Boot">
     <configuration name="Boot (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netty.rpc.Boot" />
+      <module name="netty-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netty.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boot (2)" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.netty.rpc.Boot" />
       <module name="netty-service" />
       <extension name="coverage">
@@ -225,6 +162,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloServiceTest.testSync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netty.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.netty.rpc" />
+      <option name="MAIN_CLASS_NAME" value="com.netty.rpc.HelloServiceTest" />
+      <option name="METHOD_NAME" value="testSync" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="netty-rpc" />
       <method v="2">
@@ -247,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloServiceTest.testSync" />
         <item itemvalue="Application.RpcClient" />
         <item itemvalue="Application.Boot (1)" />
       </list>
@@ -266,8 +220,17 @@
       <workItem from="1681310529582" duration="3018000" />
       <workItem from="1681360251331" duration="2447000" />
       <workItem from="1681376017102" duration="33466000" />
-      <workItem from="1681532847857" duration="872000" />
+      <workItem from="1681532847857" duration="3443000" />
+      <workItem from="1681537020277" duration="5565000" />
     </task>
+    <task id="LOCAL-00001" summary="rpc_version_1">
+      <created>1681533842703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681533842703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,14 +244,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/netty-service/src/main/java/com/netty/rpc/center/ServiceFactory.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosServerDiscovery.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosServerDiscovery.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="15" />
+          <line>46</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-client/src/main/java/com/netty/rpc/registery/NacosServerDiscovery.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
